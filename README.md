@@ -125,11 +125,10 @@ Phase 1 establishes the AI foundation of the system by generating a cerebras API
 }
 ```
 •	Click Execute Node
-```
 
 #### 1.3 Write two combined prompts: one for classification and one for response generation
 •	Replace the JSON in the http node with the below
-
+```
 {
   "model": "llama3.1-8b",
   "temperature": 0,
