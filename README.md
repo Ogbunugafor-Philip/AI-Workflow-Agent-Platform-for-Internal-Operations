@@ -358,6 +358,7 @@ Add the second HTTP Request node
 •	Connect it like this:
 
 AI_Request_Classifer → AI_Response_Generator 
+
 <img width="636" height="282" alt="image" src="https://github.com/user-attachments/assets/f93f894b-655e-4fe3-b436-d70f63af2c28" />
 
 
