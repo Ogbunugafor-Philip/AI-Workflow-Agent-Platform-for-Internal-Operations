@@ -126,6 +126,10 @@ Phase 1 establishes the AI foundation of the system by generating a cerebras API
 ```
 •	Click Execute Node
 ```
+
+#### 1.3 Write two combined prompts: one for classification and one for response generation
+•	Replace the JSON in the http node with the below
+
 {
   "model": "llama3.1-8b",
   "temperature": 0,
@@ -142,9 +146,6 @@ Phase 1 establishes the AI foundation of the system by generating a cerebras API
 }
 
 ```
-#### 1.3 Write two combined prompts: one for classification and one for response generation
-•	Replace the JSON in the http node with the below
-
 
 ### Phase 2: Input Setup (Google Forms)
 Phase 2 focuses on building the structured entry point of the system by creating a Google Form to collect submissions such as reports, requests, complaints, and inquiries, and linking it to a Google Sheet where all responses are stored automatically. This phase also connects n8n to the Google Sheet using a trigger node so that every new submission instantly activates the workflow. By the end of Phase 2, the system can reliably capture incoming documents and automatically pass them into the automation pipeline for AI processing.
